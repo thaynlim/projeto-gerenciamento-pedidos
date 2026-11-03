@@ -1,53 +1,57 @@
-Sistema de Gerenciamento de Pedidos
+🍔 Sistema de Gerenciamento de Pedidos
 
-Sobre o projeto
+📌 Sobre o projeto
 
-Este projeto consiste em um sistema de gerenciamento de pedidos para um restaurante, desenvolvido em Java. O objetivo é facilitar a criação, organização e administração dos pedidos.
+Este projeto consiste em um sistema de gerenciamento de pedidos para um restaurante, desenvolvido em Java. O objetivo é facilitar a criação, organização e administração dos pedidos, oferecendo praticidade e controle sobre as operações.
 
-Funcionalidades
+🚀 Funcionalidades
 
-Criar pedidos informando o nome do cliente.
+📝 Criação de pedidos com identificação do cliente.
 
-Selecionar diferentes tipos de lanches.
+🍔 Seleção de diferentes tipos de lanches.
 
-Adicionar ingredientes extras, como cheddar e bacon.
+🧀 Adição de ingredientes extras, como cheddar e bacon.
 
-Remover ingredientes.
+➖ Remoção de ingredientes.
 
-Calcular o valor total dos pedidos.
+💰 Cálculo automático do valor dos pedidos.
 
-Consultar, modificar e cancelar pedidos.
+📋 Consulta, modificação e cancelamento de pedidos.
 
-Consultar o total de vendas do dia.
+📊 Consulta do total de vendas do dia.
 
-Tecnologias utilizadas
+🛠️ Tecnologias utilizadas
 
-Java
+☕ Java
 
-IntelliJ IDEA
+💻 IntelliJ IDEA
 
-JUnit 5 (testes, caso estejam incluídos no projeto)
+🧪 JUnit 5
 
-Conceitos e padrões de projeto
+🧩 Padrões de projeto e conceitos aplicados
 
-Durante o desenvolvimento foram utilizados:
+Factory: centraliza e facilita a criação dos diferentes tipos de lanches.
 
-Factory: responsável pela criação dos lanches.
+Decorator: permite adicionar ingredientes extras sem modificar a estrutura original dos lanches.
 
-Decorator: permite adicionar ingredientes extras sem alterar a estrutura original do lanche.
+Facade: simplifica a comunicação entre as classes e organiza o acesso às funcionalidades do sistema.
 
-Facade: simplifica a comunicação entre as classes do sistema.
+Encapsulamento e interfaces: contribuem para a organização, reutilização e manutenção do código.
 
-Encapsulamento e interfaces: organização e estruturação do código.
-
-Organização do projeto
+📁 Estrutura do projeto
 
 aplicativo: contém a classe principal, o menu e a fachada do sistema.
 
-cardapio: contém as classes relacionadas aos lanches e seus adicionais.
+cardapio: reúne as classes dos lanches e seus adicionais.
 
-pedido: contém as classes responsáveis pelo gerenciamento dos pedidos.
+pedido: contém as classes responsáveis pela criação e gerenciamento dos pedidos.
 
-Vídeo de apresentação
+test: contém os testes automatizados do projeto.
 
-Assista à apresentação do projeto
+🎬 Vídeo de apresentação
+
+Confira a demonstração do funcionamento do sistema: 
+
+👉 [Clique aqui para assistir ao vídeo de apresentação](https://drive.google.com/file/d/1rbrPLskImlGCwwqekzs3BeTYcbin0X1G/view?usp=sharing)
+
+✨ Projeto desenvolvido como parte de uma atividade prática de desenvolvimento Java.
